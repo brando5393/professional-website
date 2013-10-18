@@ -1,6 +1,7 @@
 <html>
 <head>
 <title>About Site</title>
+<link href="./assets/css/bootstrap.css" rel="stylesheet">
 </head>
 <body>
 <div class="jumbotron">
