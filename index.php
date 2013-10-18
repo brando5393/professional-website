@@ -11,4 +11,5 @@
     <p><a class="btn btn-primary btn-lg" href="./home.php">Enter Site </a></p>
   </div>
 </div>
+<footer>Copyright&copy; 2013 Brandon Williams</footer>
 </body>
