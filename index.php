@@ -1,3 +1,8 @@
+<html>
+<head>
+<title>About Site</title>
+</head>
+<body>
 <div class="jumbotron">
   <div class="container">
     <h1>Hello, and welcome</h1>
@@ -5,3 +10,4 @@
     <p><a class="btn btn-primary btn-lg">Enter Site</a></p>
   </div>
 </div>
+</body>
