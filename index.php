@@ -1,8 +1,7 @@
 <html>
-<head>
-<title>About Site</title>
-<link href="./assets/css/bootstrap.css" rel="stylesheet">
-</head>
+<?php
+include './head.php';
+?>
 <body>
 <div class="jumbotron">
   <div class="container">
@@ -11,5 +10,7 @@
     <p><a class="btn btn-primary btn-lg" href="./home.php">Enter Site </a></p>
   </div>
 </div>
-<footer>Copyright&copy; 2013 Brandon Williams</footer>
+<?php
+include './footer.php';
+?>
 </body>
