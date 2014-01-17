@@ -16,8 +16,8 @@ include_once("analyticstracking.php");
             <button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas">Toggle nav</button>
           </p>
           <div class="jumbotron">
-            <h1>Networking</h1>
-            <p>The process or act of linking (machines, esp. computers) to operate interactively.</p>
+            <h1>Security</h1>
+            <p>Computer security is information security as applied to computers and networks.</p>
           </div>
           <div class="row">
             <div class="col-6 col-sm-6 col-lg-4">
