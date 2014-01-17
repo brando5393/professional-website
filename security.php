@@ -21,8 +21,8 @@ include_once("analyticstracking.php");
           </div>
           <div class="row">
             <div class="col-6 col-sm-6 col-lg-4">
-              <h2>Cisco Routers</h2>
-              <p>Use Cisco Routers or equipment? If so you are in luck, thanks to my CCNA classes at Waukesha County Technical Collage I am adept at installing and configuring Cisco routers and switches.</p>
+              <h2>Snort</h2>
+              <p>Snort is a <b>free</b> open source network intrusion prevention and detection system (IDS/IPS). I would be happy to install and configure this software for you to help keep your systems safe.</p>
             </div><!--/span-->
             <div class="col-6 col-sm-6 col-lg-4">
               <h2>Servers</h2>
