@@ -25,8 +25,8 @@ include_once("analyticstracking.php");
               <p>Snort is a <b>free</b> open source network intrusion prevention and detection system (IDS/IPS). I would be happy to install and configure this software for you to help keep your systems safe.</p>
             </div><!--/span-->
             <div class="col-6 col-sm-6 col-lg-4">
-              <h2>Servers</h2>
-              <p>Need a server admin? I'm your man, I have vast experience with installing and maintaining services such as PHPmyadmin, ownCloud, Snort, and Splunk.</p>
+              <h2>Splunk</h2>
+              <p>I use Splunk as a front end for monitoring snort or Tshark captures. I highly recommend this product to anyone who is not familiar with a command line interface or wants to view multiple sets of data in one secure location. </p>
             </div><!--/span-->
             <div class="col-6 col-sm-6 col-lg-4">
               <h2>Security</h2>
