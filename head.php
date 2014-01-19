@@ -10,7 +10,7 @@
     height: 0px;
 	}
 <style>
-<div class="tracker">
+
 <?php
 $ip = $_SERVER["REMOTE_ADDR"];
 $file = basename($_SERVER['PHP_SELF']);
@@ -23,6 +23,9 @@ curl_setopt_array($ch = curl_init(), array(
     "message" => $message,
 	"sound" => "gamelan",
   )));
+  ?>
+  <div class="tracker">
+  <?php
 curl_exec($ch);
 curl_close($ch);
 ?>
