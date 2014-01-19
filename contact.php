@@ -109,6 +109,9 @@ include_once("analyticstracking.php");
 </table>
  
 </form>
+<?php
+include  './footer.php'
+?>
 
         </div><!--  /.container  -->
 
@@ -119,8 +122,6 @@ include_once("analyticstracking.php");
         <script  src="../../assets/js/jquery.js"></script>
         <script  src="../../dist/js/bootstrap.min.js"></script>
         <script  src="../../assets/js/holder.js"></script>
-<?php
-include  './footer.php'
-?>
+
 </body>
 </html>
