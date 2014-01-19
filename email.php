@@ -8,7 +8,7 @@ if(isset($_POST['email'])) {
  
 $email_to = "brando5393@yahoo.com";
  
-    $email_subject = "Message from brandontwilliams.info";
+$email_subject = "Message from brandontwilliams.info";
  
      
  
@@ -181,7 +181,7 @@ $headers = 'From: '.$email_from."\r\n".
         <link rel="stylesheet" href="css/prettyPhoto.css">
         <link rel="stylesheet" href="css/isotop_animation.css">
 
-<meta http-equiv="refresh" content="1; url=http://globalhealingcircles.com/site/index.php" />
+<meta http-equiv="refresh" content="1; url=brandontwilliams.info/thankyou.php" />
         <link href='css/style.css' rel='stylesheet' type='text/css'>
         <link href='css/responsive.css' rel='stylesheet' type='text/css'>
 
