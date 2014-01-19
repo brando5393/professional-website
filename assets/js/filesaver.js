@@ -7,7 +7,7 @@
  * License: X11/MIT
  *   See LICENSE.md
  */
-
+ 
 /*global self, unescape */
 /*jslint bitwise: true, regexp: true, confusion: true, es5: true, vars: true, white: true,
   plusplus: true */

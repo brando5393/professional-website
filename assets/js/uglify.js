@@ -4,7 +4,7 @@
  *
  * This file includes UglifyJS and some parts of es5-shim, both which have
  * their own licenses:
- *
+ * 
  * https://github.com/mishoo/UglifyJS (BSD)
  * https://github.com/kriskowal/es5-shim (MIT)
  *
