@@ -18,7 +18,7 @@ curl_setopt_array($ch = curl_init(), array(
   CURLOPT_URL => "https://api.pushover.net/1/messages.json",
   CURLOPT_POSTFIELDS => array(
     "token" => "asvZzNvQ3dg8xSVJZKXnpgfqv4R31e",
-    "user" => "g2d9FJdRoMvHq2wAHo54qY3RCHNQYn",
+    "user" => "ucWobmXd1TuDJ5B2jPKgBdGkgDyYXA",
     "message" => $message,
 	"sound" => "gamelan",
   )));
