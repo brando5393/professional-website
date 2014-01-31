@@ -35,7 +35,6 @@ include_once("analyticstracking.php");
                         <div  class="col-6  col-sm-6  col-lg-4">
                             <h2>Tshark</h2>
                             <p>Tshark is a text based version of Wireshark altough it does require a more command line based background to use, it is quite effective if you still want to watch network trafic without slowing down your system(s) with GUIs.</p>
-                            <p><a  class="btn  btn-default"  href="#"  role="button">View  details  &raquo;</a></p>
                         </div><!--/span-->
                         <div  class="col-6  col-sm-6  col-lg-4">
                             <!--
