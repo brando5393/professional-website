@@ -29,14 +29,12 @@ include_once("analyticstracking.php");
                             <p>I  use  Splunk  as  a  front  end  for  monitoring  snort  or  Tshark  captures.  I  highly  recommend  this  product  to  anyone  who  is  not  familiar  with  a  command  line  interface  or  wants  to  view  multiple  sets  of  data  in  one  secure  location.  </p>
                         </div><!--/span-->
                         <div  class="col-6  col-sm-6  col-lg-4">
-                            <h2>Security</h2>
-                            <p>Need  help  securing  your  computer  or  server  check  out  the  security  section  of  my  website  to  see  what  solutions  I  offer.</p>
-                            <p><a  class="btn  btn-default"  href="./security.php"  role="button">View  Security  &raquo;</a></p>
+                            <h2>Wireshark</h2>
+                            <p>Wireshark is a network protocal analyzer that will give in detail information about the individual packets going through the wires of your network. I will preform captures for <b>Research purposes only.</b> </p>
                         </div><!--/span-->
                         <div  class="col-6  col-sm-6  col-lg-4">
-			<!--
-                            <h2>Heading</h2>
-                            <p>Donec  id  elit  non  mi  porta  gravida  at  eget  metus.  Fusce  dapibus,  tellus  ac  cursus  commodo,  tortor  mauris  condimentum  nibh,  ut  fermentum  massa  justo  sit  amet  risus.  Etiam  porta  sem  malesuada  magna  mollis  euismod.  Donec  sed  odio  dui.  </p>
+                            <h2>Tshark</h2>
+                            <p>Tshark is a text based version of Wireshark altough it does require a more command line based background to use, it is quite effective if you still want to watch network trafic without slowing down your system(s) with GUIs.</p>
                             <p><a  class="btn  btn-default"  href="#"  role="button">View  details  &raquo;</a></p>
                         </div><!--/span-->
                         <div  class="col-6  col-sm-6  col-lg-4">
