@@ -38,7 +38,7 @@ include_once("analyticstracking.php");
     </div>
     <div class="col-md-4">
         <h1>Nmap</h1>
-        <p>number2description</p>
+        <p>Nmap is a security scanner used to discover and gain information on the hosts and servers on a network. Some of the information that can be gained via the use of an Nmap scan includes, host discovery, Operating System detection and much more.</p>
     </div>
     <div class="col-md-4">
         <h1>Artillery</h1>
