@@ -42,7 +42,7 @@ include_once("analyticstracking.php");
     </div>
     <div class="col-md-4">
         <h1>Artillery</h1>
-        <p>number3description</p>
+        <p>Artillery is an advanced active response tool. This <b>free</b> and open source tool works as a honeypot, file system monitor, system hardener and provides real-time threat intelligence feeds for your server(s).</p>
     </div>
 </div><!--endrow-->
 
