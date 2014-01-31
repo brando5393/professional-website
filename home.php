@@ -25,13 +25,13 @@ include_once("analyticstracking.php");
                     <img  class="img-circle"  src="./security2.png"    alt="security">
                     <h2>Secure</h2>
                     <p>Want  to  set  up  intrusion  detection  on  your  server?  Want  some  network  traffic  monitored?  I  can  do  that  to.</p>
-                    <p><a  class="btn  btn-default"  href="#">View  details  &raquo;</a></p>
+                    <p><a  class="btn  btn-default"  href="./security.php">View  details  &raquo;</a></p>
                 </div><!--  /.col-lg-4  -->
                 <div  class="col-lg-4">
                     <img  class="img-circle"  src="./webdesign2.png"    alt="webdesign">
                     <h2>And  on  The  Web</h2>
                     <p>Looking  to  start  a  website  or  just  give  your  old  site  a  new  look?  Just  click  that  botton.</p>
-                    <p><a  class="btn  btn-default"  href="#">View  details  &raquo;</a></p>
+                    <p><a  class="btn  btn-default"  href="./webdesign.php">View  details  &raquo;</a></p>
                 </div><!--  /.col-lg-4  -->
             </div><!--  /.row  -->
 
