@@ -25,13 +25,11 @@ include_once("analyticstracking.php");
         <h1>Wordpress</h1>
         <p>I build Wordpress sites at an affordable cost and know a vast number of themes and plugins to make your Wordpress site function in just the way you want.</p>
     </div>
-    <!--
     <div class="col-md-4">
         <h1>Wireshark</h1>
         <p>Wireshark is a network protocal analyzer that will give in detail information about the individual packets going through the wires of your network. I will preform captures for <b>Research purposes only.</p>
     </div>
 </div><!--endrow-->
-    <!--
 <div class="row">
    <div class="col-md-4">
         <h1>Tshark</h1>
