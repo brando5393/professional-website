@@ -18,19 +18,20 @@ include_once("analyticstracking.php");
 
 <div class="row">
    <div class="col-md-4">
-        <h1>Snort</h1>
-        <p>Snort  is  a  <b>free</b>  open  source  network  intrusion  prevention  and  detection  system  (IDS/IPS).  I  would  be  happy  to  install  and  configure  this  software  for  you  to  help  keep  your  systems  safe.</p>
+        <h1>BootStrap</h1>
+        <p>I code websites from the ground up using Twitter Bootstrap. As an example this website is coded in twitter bootstrap.</p>
     </div>
     <div class="col-md-4">
-        <h1>Splunk</h1>
-        <p>I  use  Splunk  as  a  front  end  for  monitoring  snort  or  Tshark  captures.  I  highly  recommend  this  product  to  anyone  who  is  not  familiar  with  a  command  line  interface  or  wants  to  view  multiple  sets  of  data  in  one  secure  location.</p>
+        <h1>Wordpress</h1>
+        <p>I build Wordpress sites at an affordable cost and know a vast number of themes and plugins to make your Wordpress site function in just the way you want.</p>
     </div>
+    <!--
     <div class="col-md-4">
         <h1>Wireshark</h1>
         <p>Wireshark is a network protocal analyzer that will give in detail information about the individual packets going through the wires of your network. I will preform captures for <b>Research purposes only.</p>
     </div>
 </div><!--endrow-->
-
+    <!--
 <div class="row">
    <div class="col-md-4">
         <h1>Tshark</h1>
