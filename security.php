@@ -27,7 +27,7 @@ include_once("analyticstracking.php");
     </div>
     <div class="col-md-4">
         <h1>Wireshark</h1>
-        <p>Wireshark is a network protocal analyzer that will give in detail information about the individual packets going through the wires of your network. I will preform captures for <b>Research purposes only.</p>
+        <p>Wireshark is a network protocal analyzer that will give in detail information about the individual packets going through the wires of your network. I will preform captures for Research purposes only.</p>
     </div>
 </div><!--endrow-->
 
