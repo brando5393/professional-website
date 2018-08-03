@@ -21,6 +21,10 @@ footer
   color: #ffff;
 }
 
+footer a
+{
+  color: #00bfff;
+}
 #copyright
 {
   text-align: center;
@@ -39,7 +43,6 @@ nav a
   transition-duration: 2s;
   transition-timing-function: ease-out;
 }
-
 
 nav a:link
 {
