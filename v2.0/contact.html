@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Brandon Williams</title>
+     <meta name="viewport"
+      content="width=device-width,
+      initial-scale=1.0">
+      <!--[if le IE 9]>
+      <script src="http://html5shim.google.com/svn/trunk/html5.js">
+      </script>
+      <![endif]-->
+      <link rel="stylesheet" href="./css/main.css">
+  </head>
+  <body>
+    <div id="wrapper">
+      <header>
+        <h1>Brandon Williams</h1>
+        <h4>Freelance Web Designer</h4>
+      </header>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="faq.html">FAQs</a>
+        <a href="#">Portfolio</a>
+        <a href="contact.html">Contact Me</a>
+      </nav>
+      <main>
+        <h3>Contact Me</h3>
+        <p>Fill out this form to send me a business inquiry, or if you have any questions that were not answered on the <a href="faq.html">FAQs</a> page. <br> <b>All fields marked with an asterisk * are required.</b></p>
+        <form name="contactform" id="contactform" method="post" action="./scripts/contactsubmit.php">
+          <label>*First Name</label>
+          <input type="text" name="fname" required placeholder="John" autofocus>
+          <br>
+          <label>*Last Name:</label>
+          <input type="text" name="lname" required placeholder="Doe">
+          <br>
+          <label>Company:</label>
+          <input type="text" name="company" placeholder="What company do you work for?">
+          <br>
+          <label>*E-mail:</label>
+          <input type="email" name="email" required placeholder="johndoe@gmail.com">
+          <br>
+          <label>*I Am Inquiring About:</label>
+          <select name="inquirytype" required>
+            <option>Select the option that best applies to your inquiry</option>
+            <option value="build a hard codeded website">Having a website built (Hard Code)</option>
+            <option value="build a WordPress website">Having a WordPress site built</option>
+            <option value="update existing website">Updating my existing website</option>
+            <option value="other">Another reason</option>
+          </select>
+          <br>
+          <label>*Message And Or Description:
+          <textarea name="message" rows="4" cols="40" value="message" spellcheck="true" required placeholder="Please enter your message and or detailed description here."></textarea>
+          <br>
+          <input type="submit" value="Send Message">
+          <input type="reset">
+        </form>
+      </main>
+      <footer>
+        <sub>Brandon Williams</br>Freelance Web Designer</br>E-mail: <a href="mailto:example@example.com?subject=Website Inquiry">example@example.com</a></sub>
+        </br>
+        <div id="copyright">
+          <small><i>Copyright &copy; 2018 Brandon Williams</i></small>
+        </div>
+      </footer>
+    </div>
+  </body>
+<html>
