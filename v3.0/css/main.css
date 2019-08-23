@@ -1,0 +1,121 @@
+body
+{
+  background-image: radial-gradient(#1e90ff,#00bfff,#87cefa);
+  font-family: serif;
+}
+
+header
+{
+  background-color: #000000;
+  color: #ffff;
+}
+
+header h4
+{
+  padding-left: 140px;
+  margin-top: -25px;
+  font-family: cursive;
+}
+
+header h1
+{
+  font-family: cursive;
+}
+
+footer
+{
+  background-color: #000000;
+  color: #ffff;
+}
+
+footer a
+{
+  color: #00bfff;
+}
+#copyright
+{
+  text-align: center;
+}
+
+nav
+{
+  font-weight: bold;
+  text-align: center;
+}
+
+nav a
+{
+  text-decoration: underline;
+  list-style: none;
+  transition-duration: 2s;
+  transition-timing-function: ease-out;
+}
+
+nav a:link
+{
+  color: #4169e1;
+}
+
+nav a:visited
+{
+  color: #800080;
+}
+
+nav a:hover
+{
+  color: #ffffff;
+}
+
+main
+{
+  padding: 20px;
+  display: block;
+
+}
+
+#wrapper
+{
+  width: 80%;
+  min-width: 960px;
+  max-width: 2048px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #f5deb3;
+  background-repeat: no-repeat;
+  box-shadow: 6px,6px,6px #ffffff;
+}
+
+#wrapper h3
+{
+  text-decoration: underline;
+}
+
+wrapper a:link
+{
+  color: #4169e1;
+}
+
+wrapper a:visited
+{
+  color: #800080;
+}
+
+table
+{
+  border-collapse: collapse;
+}
+
+table,th,td
+{
+  border: 1px solid black;
+}
+caption
+{
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+dt
+{
+  font-weight: bold;
+}
