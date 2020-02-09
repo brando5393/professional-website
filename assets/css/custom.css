@@ -1,31 +1,35 @@
-body{
+body {
     font-family: 'Karla', sans-serif;
 }
 
-h1,h2,h3,h4,h5,h6{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: 'Rubik', sans-serif;
 }
 
-label{
+label {
     color: white !important;
 }
 
-.form-control{
+.form-control {
     background-color: white !important;
 }
 
-#profile-photo{
+#profile-photo {
     border-radius: 50%;
 }
 
-#sendMessageButton:hover{
+#sendMessageButton:hover {
     background-color: #1A252F !important;
     border-color: #1A252F !important;
 
 }
 
 
-#thank-you-text{
+#thank-you-text {
     text-align: center;
 }
-
