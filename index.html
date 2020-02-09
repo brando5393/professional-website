@@ -13,7 +13,13 @@
   <!-- Custom fonts for this theme -->
 
   <!-- Theme CSS -->
-  <link href="assets/css/freelancer.min.css" rel="stylesheet">
+  <link href="assets/css/freelancer.css" rel="stylesheet">
+
+  <!-- custom CSS -->
+  <link rel="stylesheet" href="assets/css/custom.css">
+
+  <!-- font awesome link -->
+  <script src="https://kit.fontawesome.com/83aa8d8bfe.js" crossorigin="anonymous"></script>
 
 </head>
 
@@ -51,7 +57,7 @@
     <div class="container d-flex align-items-center flex-column">
 
       <!-- Masthead Avatar Image -->
-      <img class="masthead-avatar mb-5" src="img/avataaars.svg" alt="">
+      <img class="masthead-avatar mb-5" id="profile-photo" src="assets/img/profilePhoto.JPG" alt="profile photo">
 
       <!-- Masthead Heading -->
       <h1 class="masthead-heading text-uppercase mb-0">Hi there, I'm Brandon</h1>
@@ -60,7 +66,7 @@
       <div class="divider-custom divider-light">
         <div class="divider-custom-line"></div>
         <div class="divider-custom-icon">
-          <i class="fas fa-star"></i>
+          <i class="fas fa-code"></i>
         </div>
         <div class="divider-custom-line"></div>
       </div>
@@ -179,7 +185,7 @@
       <div class="divider-custom divider-light">
         <div class="divider-custom-line"></div>
         <div class="divider-custom-icon">
-          <i class="fas fa-star"></i>
+          <i class="fas fa-user-tie"></i>
         </div>
         <div class="divider-custom-line"></div>
       </div>
@@ -187,7 +193,7 @@
       <!-- About Section Content -->
       <div class="row">
         <div class="col-lg-12 ">
-          <p class="lead">I am a full stack web developer trained in the MERN development stack. I studied at the University of Wisconsin Coding Boot Camp, and have a passion for learning while using my skills to help others. My overall goal, is always to produce work that both meets an exceeds what a client is looking for. When I am not coding, or in the process of delving into learning about a new and interesting topic, I can be found sitting at my piano, reading a book, or by his royal decree, (I just pay the rent) showering attention and the more than occasional belly rub on my cat Peanut.</p>
+          <p class="lead">I am a full stack web developer trained in the MERN development stack. I studied at the University of Wisconsin Coding Boot Camp, and have a passion for learning while using my skills to help others. My overall goal, is always to produce work that both meets and exceeds what a client is looking for. When I am not coding, or in the process of delving into learning about a new and interesting topic, I can be found sitting at my piano, reading a book, or by his royal decree, (I just pay the rent) showering attention and the more than occasional belly rub on my cat Peanut. If you like what you see, go ahead and contact me. I look forward to hearing from you and working together to create something amazing.</p>
           <!-- </div>
         <div class="col-lg-4 mr-auto">
           <p class="lead">You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!</p>
@@ -209,7 +215,7 @@
       <div class="divider-custom">
         <div class="divider-custom-line"></div>
         <div class="divider-custom-icon">
-          <i class="fas fa-star"></i>
+          <i class="far fa-address-book"></i>
         </div>
         <div class="divider-custom-line"></div>
       </div>
@@ -306,7 +312,7 @@
   <!-- Copyright Section -->
   <section class="copyright py-4 text-center text-white">
     <div class="container">
-      <small>Copyright &copy; Your Website 2019</small>
+      <small>Copyright &copy; Brandon Williams <span id="year-display"></span></small>
     </div>
   </section>
 
@@ -584,6 +590,13 @@
 
   <!-- Custom scripts for this template -->
   <script src="assets/js/freelancer.min.js"></script>
+
+  <script type="text/javascript">
+  // This code gets and displays the current year in the copyright area
+  var date = new Date();
+  var currentYear = date.getFullYear();
+  $("#year-display").text(currentYear);
+  </script>
 
 </body>
 
