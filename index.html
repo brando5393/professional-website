@@ -9,11 +9,14 @@
   <meta name="author" content="">
 
   <title>Brandon Williams</title>
-
   <!-- Custom fonts for this theme -->
   <link href="https://fonts.googleapis.com/css?family=Karla|Rubik&display=swap" rel="stylesheet">
   <!-- Theme CSS -->
   <link href="assets/css/freelancer.css" rel="stylesheet">
+
+  <!-- animate CSS -->
+  <link rel="stylesheet" href="assets/css/animate.css">
+
 
   <!-- custom CSS -->
   <link rel="stylesheet" href="assets/css/custom.css">
@@ -65,7 +68,7 @@
       <img class="masthead-avatar mb-5" id="profile-photo" src="assets/img/profilePhoto.JPG" alt="profile photo">
 
       <!-- Masthead Heading -->
-      <h1 class="masthead-heading text-uppercase mb-0">Hi there, I'm Brandon</h1>
+      <h1 class="masthead-heading text-uppercase mb-0" id="page-heading">Hi there, I'm Brandon</h1>
 
       <!-- Icon Divider -->
       <div class="divider-custom divider-light">
@@ -720,10 +723,15 @@
   <script src="assets/js/freelancer.min.js"></script>
 
   <script type="text/javascript">
+  $(document).ready(function(){
     // This code gets and displays the current year in the copyright area
     var date = new Date();
     var currentYear = date.getFullYear();
     $("#year-display").text(currentYear);
+
+    // Code to animate heading
+    $("#page-heading").addClass("animated zoomIn");
+  })
   </script>
 </body>
 
