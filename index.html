@@ -175,23 +175,30 @@
             <img class="img-fluid" src="assets/img/internetServiceChecker.JPG" alt="internet service checker preview">
           </div>
         </div>
-
-      </div>
-
-      <!-- Portfolio Item 7 -->
-      <div class="col-md-6 col-lg-4">
-        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal7">
-          <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-            <div class="portfolio-item-caption-content text-center text-white">
-              <i class="fas fa-plus fa-3x"></i>
+        <!-- Portfolio Item 7 -->
+        <div class="col-md-6 col-lg-4">
+          <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal7">
+            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+              <div class="portfolio-item-caption-content text-center text-white">
+                <i class="fas fa-plus fa-3x"></i>
+              </div>
             </div>
+            <img class="img-fluid" src="assets/img/bookSleuth.JPG" alt="book sleuth preview">
           </div>
-          <img class="img-fluid" src="assets/img/bookSleuth.JPG" alt="book sleuth preview">
+        </div>
+        <!-- Portfolio Item 8 -->
+        <div class="col-md-6 col-lg-4">
+          <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal8">
+            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+              <div class="portfolio-item-caption-content text-center text-white">
+                <i class="fas fa-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="assets/img/dev-forum.JPG" alt="dev forum preview">
+          </div>
         </div>
       </div>
-
     </div>
-    <!-- /.row -->
   </section>
   <section>
 
@@ -329,7 +336,8 @@
                     class="far fa-paper-plane"></i></button>
               </div>
               <p>In the event that the e-mail server fails to respond after multiple send attempts, please feel free to
-                click <a href="mailto:brando5393@gmail.com?subject=Work%20Request" id="email-link"> here </a>to send me a message. (This
+                click <a href="mailto:brando5393@gmail.com?subject=Work%20Request" id="email-link"> here </a>to send me
+                a message. (This
                 will open up your default mail client.)</p>
             </form>
           </div>
@@ -706,6 +714,50 @@
         </div>
       </div>
     </div>
+    <!-- Portfolio Modal 8 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal8" tabindex="-1" role="dialog"
+      aria-labelledby="portfolioModal6Label" aria-hidden="true">
+      <div class="modal-dialog modal-xl" role="document">
+        <div class="modal-content">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">
+              <i class="fas fa-times"></i>
+            </span>
+          </button>
+          <div class="modal-body text-center">
+            <div class="container">
+              <div class="row justify-content-center">
+                <div class="col-lg-8">
+                  <!-- Portfolio Modal - Title -->
+                  <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Dev Forum 2.0</h2>
+                  <!-- Icon Divider -->
+                  <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon">
+                      <i class="fas fa-star spinning-star"></i>
+                    </div>
+                    <div class="divider-custom-line"></div>
+                  </div>
+                  <!-- Portfolio Modal - Image -->
+                  <img class="img-fluid rounded mb-5" src="assets/img/dev-forum.JPG" alt="dev forum preview">
+                  <!-- Portfolio Modal - Text -->
+                  <p class="mb-5">Dev Forum 2.0 is the second project designed for the UW Milwaukee coding boot camp. My
+                    group that consisted of myself and two other individuals, came up with the idea for the forum after
+                    a discussion regarding features that we would like to see be added and or removed from popular
+                    forums such as StackOverflow. While the forum is currently focused on the MERN development stack, it
+                    is vary much a work in progress and we have hopes to add to it in the near future. For a full run
+                    down on the features and improvements my team and I would like to add, please take a look at the
+                    forum's WIKI <a href="https://github.com/brando5393/project-2/wiki/Upcoming-Features">here</a>.</p>
+                  <a href="https://uw-coding-bootcamp-project2.herokuapp.com/"><button class="btn btn-primary">
+                      Open Project <i class="fas fa-arrow-circle-right"></i>
+                    </button></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </section>
 
   <!-- Bootstrap core JavaScript -->
@@ -722,31 +774,34 @@
   <!-- Custom scripts for this template -->
   <script src="assets/js/freelancer.min.js"></script>
 
- 
- <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-158169726-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'UA-158169726-1');
-</script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-158169726-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
 
- 
- <script type="text/javascript">
-  $(document).ready(function(){
-    // This code gets and displays the current year in the copyright area
-    var date = new Date();
-    var currentYear = date.getFullYear();
-    $("#year-display").text(currentYear);
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
 
-    // Code to animate heading
-    $("#page-heading").addClass("animated zoomIn");
+    gtag('config', 'UA-158169726-1');
+  </script>
 
-    // Code to animate project stars
-    $(".spinning-star").addClass("animated infinite heartBeat");
-  })
+
+  <script type="text/javascript">
+    $(document).ready(function () {
+      // This code gets and displays the current year in the copyright area
+      var date = new Date();
+      var currentYear = date.getFullYear();
+      $("#year-display").text(currentYear);
+
+      // Code to animate heading
+      $("#page-heading").addClass("animated zoomIn");
+
+      // Code to animate project stars
+      $(".spinning-star").addClass("animated infinite heartBeat");
+    })
   </script>
 </body>
 
